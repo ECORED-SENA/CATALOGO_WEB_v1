@@ -193,6 +193,11 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/j_4Cm4ZZWQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo - 3")
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/xkfoHMVK2Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
       
     #t_4_5
     h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Video - oferta del programa
