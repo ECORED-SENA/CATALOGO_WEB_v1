@@ -372,6 +372,12 @@ export default {
       },
     ],
     subMenu: [
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       // {
       //   icono: 'fas fa-sitemap',
       //   titulo: 'Síntesis',
