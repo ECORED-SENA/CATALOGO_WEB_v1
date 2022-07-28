@@ -307,9 +307,9 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '13.3',
+            numero: '13.4',
             titulo: 'Tarjetas con número',
-            hash: 't_13_3',
+            hash: 't_13_4',
           },
         ],
       },
@@ -384,38 +384,6 @@ export default {
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
       },
-      // {
-      //   icono: 'fas fa-sitemap',
-      //   titulo: 'Síntesis',
-      //   nombreRuta: 'sintesis',
-      //   desarrolloContenidos: true,
-      // },
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
-      // {
-      //   nombreRuta: 'glosario',
-      //   icono: 'fas fa-sort-alpha-down',
-      //   titulo: 'Glosario',
-      // },
-      // {
-      //   nombreRuta: 'complementario',
-      //   icono: 'far fa-folder-open',
-      //   titulo: 'Material complementario',
-      // },
-      // {
-      //   icono: 'fas fa-book',
-      //   titulo: 'Referencias bibliográficas',
-      //   nombreRuta: 'referencias',
-      // },
-      // {
-      //   icono: 'fas fa-download',
-      //   titulo: 'Descargar material',
-      //   download: 'downloads/material.zip',
-      // },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
