@@ -305,6 +305,12 @@ export default {
             titulo: 'Animadas',
             hash: 't_13_3',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '13.3',
+            titulo: 'Tarjetas con número',
+            hash: 't_13_3',
+          },
         ],
       },
       {
