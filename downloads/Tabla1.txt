@@ -1,0 +1,51 @@
+<template lang="pug">
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    .tabla-a.color-acento-botones 
+      table
+        caption Leyenda de la tabla
+        thead
+          tr
+            th Encabezado 1
+            th Encabezado 2
+            th Encabezado 3
+            th Encabezado 4
+            th Encabezado 5
+        tbody
+          tr
+            td Celda 1
+            td Celda 2
+            td Celda 3
+            td Celda 4
+            td Celda 5
+          tr
+            td Celda 1
+            td Celda 2
+            td Celda 3
+            td Celda 4
+            td Celda 5
+          tr
+            td Celda 1
+            td Celda 2
+            td Celda 3
+            td Celda 4
+            td Celda 5
+
+</template>
+
+<script>
+export default {
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>

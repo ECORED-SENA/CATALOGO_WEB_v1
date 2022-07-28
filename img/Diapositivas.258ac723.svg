@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000.9 616.7" style="enable-background:new 0 0 1000.9 616.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#989898;}
+	.st1{fill:#FFFFFF;stroke:#818181;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#CCCCCC;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#E6E6E5;}
+</style>
+<g>
+	<g>
+		<circle class="st0" cx="604.3" cy="114.7" r="8.6"/>
+		<circle class="st0" cx="552.4" cy="114.7" r="8.6"/>
+		<circle class="st0" cx="500.5" cy="114.7" r="8.6"/>
+		<circle class="st0" cx="448.5" cy="114.7" r="8.6"/>
+		<circle class="st0" cx="396.6" cy="114.7" r="8.6"/>
+	</g>
+	<path class="st1" d="M873.7,507.7H447.6c-9.7,0-17.6-7.9-17.6-17.6v-292c0-9.7,7.9-17.6,17.6-17.6h426.2c9.7,0,17.6,7.9,17.6,17.6
+		v292C891.4,499.8,883.5,507.7,873.7,507.7z"/>
+	<g>
+		<circle class="st1" cx="720.7" cy="373.2" r="84.1"/>
+		<polygon class="st1" points="632.8,242.9 683.4,330.5 734,418.2 632.8,418.2 531.6,418.2 582.2,330.5 		"/>
+	</g>
+	<path class="st2" d="M902,542.4H98.9c-17,0-30.8-13.8-30.8-30.8V105.1c0-17,13.8-30.8,30.8-30.8H902c17,0,30.8,13.8,30.8,30.8
+		v406.4C932.8,528.6,919,542.4,902,542.4z M98.9,78.6c-14.6,0-26.5,11.9-26.5,26.5v406.4c0,14.6,11.9,26.5,26.5,26.5H902
+		c14.6,0,26.5-11.9,26.5-26.5V105.1c0-14.6-11.9-26.5-26.5-26.5H98.9z"/>
+	<g>
+		<circle class="st0" cx="879.1" cy="121.4" r="28.6"/>
+		<polygon class="st3" points="876.8,135.2 873.7,132.2 885.3,120.6 874,109.3 877,106.2 891.4,120.6 		"/>
+	</g>
+	<g>
+		<circle class="st0" cx="126.3" cy="121.4" r="28.6"/>
+		<polygon class="st3" points="128.3,136.6 113.9,122.2 128.6,107.6 131.6,110.7 120,122.2 131.4,133.6 		"/>
+	</g>
+	<rect x="112.6" y="191.1" class="st2" width="189.8" height="25.6"/>
+	<rect x="112.6" y="242.9" class="st4" width="269.9" height="16.8"/>
+	<rect x="112.6" y="269.6" class="st4" width="269.9" height="16.8"/>
+	<rect x="112.6" y="302.9" class="st4" width="269.9" height="16.8"/>
+	<rect x="112.6" y="330.5" class="st4" width="269.9" height="16.8"/>
+	<rect x="112.6" y="355.9" class="st4" width="189.8" height="16.8"/>
+	<rect x="112.6" y="423.5" class="st4" width="269.9" height="16.8"/>
+	<rect x="112.6" y="452.5" class="st4" width="269.9" height="16.8"/>
+	<rect x="112.6" y="481.5" class="st4" width="269.9" height="16.8"/>
+</g>
+</svg>

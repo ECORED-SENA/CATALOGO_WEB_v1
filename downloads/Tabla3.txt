@@ -1,0 +1,80 @@
+<template lang="pug">
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    .tabla-c
+      table
+        caption Leyenda de la tabla
+        tr
+          th 03 de marzo
+          td 
+            p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          td
+            .h6.mb-0 $12.500.200
+          td
+            .h6.mb-0 $12.500.200
+            span.text-small Textos pequeños
+          td
+            .h6 FDSD33
+        tr
+          th 03 de marzo
+          td 
+            p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          td
+            .h6.mb-0 $12.500.200
+          td
+            .h6.mb-0 $12.500.200
+            span.text-small Textos pequeños
+          td
+            .h6 FDSD33
+        tr
+          th 03 de marzo
+          td 
+            p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          td
+            .h6.mb-0 $12.500.200
+          td
+            .h6.mb-0 $12.500.200
+            span.text-small Textos pequeños
+          td
+            .h6 FDSD33
+        tr
+          th 03 de marzo
+          td 
+            p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          td
+            .h6.mb-0 $12.500.200
+          td
+            .h6.mb-0 $12.500.200
+            span.text-small Textos pequeños
+          td
+            .h6 FDSD33
+        tr
+          th 03 de marzo
+          td 
+            p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          td
+            .h6.mb-0 $12.500.200
+          td
+            .h6.mb-0 $12.500.200
+            span.text-small Textos pequeños
+          td
+            .h6 FDSD33    
+
+</template>
+
+<script>
+export default {
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>

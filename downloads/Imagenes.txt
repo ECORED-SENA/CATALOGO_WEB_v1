@@ -1,0 +1,29 @@
+<template lang="pug">
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Título de sexto nivel, 16pt
+      span subtitulo  
+          
+    figure
+      img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+      figcaption Leyenda de la imagen 
+
+</template>
+
+<script>
+export default {
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>

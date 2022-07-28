@@ -1,0 +1,54 @@
+<template lang="pug">
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    .row
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-primario.p-5
+          .tarjeta-numerada__numero
+            .h2 1
+          p.text-center 
+            b Ruta integral de atención en salud 
+          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-5
+          .tarjeta-numerada__numero
+            .h2 2
+          p.text-center 
+            b Ruta integral de atención en salud 
+          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 3
+          p.text-center 
+            b Ruta integral de atención en salud 
+          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-botones.p-5
+          .tarjeta-numerada__numero
+            .h2 4
+          p.text-center 
+            b Ruta integral de atención en salud 
+          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas  
+
+</template>
+
+<script>
+export default {
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>

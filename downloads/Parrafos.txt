@@ -1,0 +1,30 @@
+<template lang="pug">
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    p.mb-5 Los párrafos mantienen un tamaño regular de 16 pt con interlineado base de 24 pt, sin embargo, existe excepciones para resaltar contenido donde se puede hacer uso de pesos 
+      span.text-thin THIN, 
+      span.text-bold BOLD, 
+      | y 
+      span.text-black BLACK 
+      | o 
+      span.etiqueta etiquetas
+      | de color (según paleta del programa). Así mismo, el ancho de los cajones textos permite variación en las doce (12) columnas. 
+
+</template>
+
+<script>
+export default {
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>
