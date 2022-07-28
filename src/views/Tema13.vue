@@ -299,6 +299,47 @@
             h4.mb-3 Reporte de ventas mensuales
             p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.    
 
+
+    separador
+    #t_13_3.titulo-segundo.color-acento-contenido
+      h2 13.3 Tarjetas con número
+
+    .row
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-primario.p-5
+          .tarjeta-numerada__numero
+            .h2 1
+          p.text-center 
+            b Ruta integral de atención en salud 
+          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-5
+          .tarjeta-numerada__numero
+            .h2 2
+          p.text-center 
+            b Ruta integral de atención en salud 
+          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 3
+          p.text-center 
+            b Ruta integral de atención en salud 
+          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-botones.p-5
+          .tarjeta-numerada__numero
+            .h2 4
+          p.text-center 
+            b Ruta integral de atención en salud 
+          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas      
+    .row.justify-content-end.mb-5.me-3
+      .col-auto
+        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_con_numero.txt')" target="_blank" type="application/pdf")
+          span Ver código fuente 
 </template>
 
 <script>

@@ -307,6 +307,69 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema14',
+        icono: 'far fa-file-alt',
+        numero: '14',
+        titulo: 'Estilos tipográficos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '14.1',
+            titulo: 'Encabezados',
+            hash: 't_14_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '14.2',
+            titulo: 'Párrafos',
+            hash: 't_14_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '14.3',
+            titulo: 'TListados',
+            hash: 't_14_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '14.4',
+            titulo: 'Bloques de texto destacado',
+            hash: 't_14_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '14.5',
+            titulo: 'Citas',
+            hash: 't_14_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '14.6',
+            titulo: 'Título de figuras / imágenes',
+            hash: 't_14_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '14.7',
+            titulo: 'Video',
+            hash: 't_14_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '14.8',
+            titulo: 'Tablas',
+            hash: 't_14_8',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '14.9',
+            titulo: 'Llamados a la acción',
+            hash: 't_14_9',
+          },
+        ],
+      },
     ],
     subMenu: [
       // {
