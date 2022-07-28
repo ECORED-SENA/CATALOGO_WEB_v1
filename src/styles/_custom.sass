@@ -1,15 +1,46 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    width: 120px
+    animation: rotation 8s infinite linear
     position: absolute
-    top: 40%
-    right: 50%
+    bottom: 13%
+    right: 33%
+    z-index: -1
   &-2
+    width: 75px
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    bottom: 30%
+    left: 5%
+  &-3
+    width: 50px
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 45%
+  &-4
+    width: 90px
+    animation: scale 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 25%
+    right: 15%
+  &-5
+    width: 70px
+    animation: rotation 4s infinite linear
+    position: absolute
+    bottom: 15%
+    left: 15%
+    z-index: -1
 
+.banner-principal__img
+  z-index: 1
+
+
+@-webkit-keyframes rotation 
+  from 
+    -webkit-transform: rotate(0deg)  
+  to 
+    -webkit-transform: rotate(359deg)
 
 @keyframes float1
   0%
@@ -17,3 +48,317 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.2)
+
+///// utilidades --------------------------------------
+.img65
+  width: 65px  
+.img90
+  width: 90px  
+.img250
+  width: 250px  
+.brd--rad
+  border-radius: 20px
+.hr--line
+  margin: 1rem 0
+  width: 100%
+  height: 1px  
+  background-color: #B0C0D2
+.b--rad
+  border-radius: 0px 0px 20px 20px 
+.bg--gradientBlue        
+  background: linear-gradient(0deg, rgba(215,236,252,1) 0%, rgba(239,246,252,1) 100%)
+
+.dialogo.color-primario .dialogo__words__word
+  color: #3c7792 !important
+
+
+
+///// Utildiades texto --------------------------------------
+.cstmH3
+  display: inline-block
+  padding-bottom: 7px
+  margin-bottom: 2rem
+  border-bottom: 3px solid #FF6B00
+.txt--orange
+  color: #FF6B00
+
+///// colores --------------------------------------
+.clr--gris
+  background-color: #f3f3f3
+.clr--pink
+  background-color: #FFAFB2
+.clr--pink02
+  background-color: #FFDFE0
+.clr--orange
+  background-color: #FF6B00
+.clr--gray
+  background-color: #F9F9F9
+.clr--paleBlue
+  background-color: #ECF3FB
+.clr--paleGreen
+  background-color: #DEF2F4
+.clr-paleYellow
+  background-color: #FFF8D9
+
+.anexo.cstm
+  background-color: white
+  &:hover    
+    .anexo__texto
+      p   
+        color: #2e5d97
+
+  
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+///// slyder --------------------------------------
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem 
+
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+
+
+.slyderB_bg_01
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/sliders/slyderB_gb_01.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+  border-radius: 15px
+
+.bg2
+  background-image: url(../assets/curso/temas/sliders/bg2.jpg)
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: cover
+
+.bg3
+  background-image: url(../assets/curso/temas/sliders/bg3.svg)
+  background-size: cover
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #EEAC3A
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #EEAC3A
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #8C5BE1 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #AFAFAF  
+
+////// Number --------------------------------------
+.number
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: attr(data-number)   
+    position: absolute
+    top: -6rem
+    left: 0rem
+    width: 100%
+    height: 100%
+    font-weight: 700
+    font-size: 120pt
+    color: #E1E2E5
+    z-index: 0
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #DFEAF1
+
+.acordion__accion__btn--a
+  background-color: #EEAC3A !important
+
+.acordion__activo
+  background-color: #fdf3e1 !important
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #E6E6E6
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #F6F6F6
+
+///// Infografias --------------------------------------
+.l
+  transform: scaleX(-1)
+
+.imgCont
+  max-width: 700px
+
+.img-infografica__item, .img-infografica-b__item
+  width: 3.5%
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
+  opacity: .3 !important
+
+///// modal--------------------------------------
+.custom
+  .img-infografica-b__modal
+    background: linear-gradient(90deg, rgba(32,56,81,1) 0%, rgba(60,108,155,1) 93%)
+
+////// Linea de tiempo
+
+.linea-tiempo-e__item__header 
+  width: 15%
+.linea-tiempo-e:before
+  left: 15%
+
+////// Tiras
+.tira_1, .tira_2, .tira_3, .tira_4, .tira_5
+  background-repeat: repeat
+  background-size: auto
+  background-position: start
+  min-height: 297px
+  -webkit-animation: tira 8s steps(1701) infinite
+  animation: tira 8s steps(1701) infinite
+
+.tira_1
+  background-image: url(../assets/curso/temas/pestañas/tira_01.jpg)
+.tira_2
+  background-image: url(../assets/curso/temas/pestañas/tira_02.jpg)
+.tira_3
+  background-image: url(../assets/curso/temas/pestañas/tira_03.jpg)
+.tira_4
+  background-image: url(../assets/curso/temas/pestañas/tira_04.jpg)
+.tira_5
+  background-image: url(../assets/curso/temas/pestañas/tira_05.jpg)
+
+@keyframes tira
+  0%
+    background-position: 1701px
+  100%
+    background-position: 0
+

@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/ECOREDSENA_CATALOGO_WEB/](https://ecored-sena.github.io/ECOREDSENA_CATALOGO_WEB/)
 
 #
 
